@@ -38,4 +38,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'CodyFire'
   s.dependency 'ReactiveCocoa', '~> 8.0.2'
+
+  s.swift_version = '4.1.2'
 end

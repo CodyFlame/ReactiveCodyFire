@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReactiveCodyFire_Example' do
+  pod 'ReactiveCodyFire', :path => '../'
+
+  target 'ReactiveCodyFire_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
